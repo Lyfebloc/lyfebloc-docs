@@ -18,21 +18,9 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'github0null', // Usually your GitHub org/user name.
-  projectName: 'eide', // Usually your repo name.
+  organizationName: 'lyfebloc', // Usually your GitHub org/user name.
+  projectName: 'docs', // Usually your repo name.
 
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'zh-cn'],
-    localeConfigs: {
-      'zh-cn': {
-        htmlLang: 'zh',
-      }
-    }
-  },
 
   presets: [
     [
@@ -64,7 +52,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       colorMode: {
-        defaultMode: 'dark'
+        defaultMode: 'light'
       },
       navbar: {
         title: `Lyfebloc Docs`,
